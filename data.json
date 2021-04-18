@@ -1,0 +1,64 @@
+[
+  {
+    "id": "Fried Broccoli with Sun-Dried Tomatoes and Cashew Nuts",
+    "obj": [
+      {
+        "rb-ia": "500 g ",
+        "rb-in": "broccoli"
+      },
+      {
+        "rb-ia": "100 g ",
+        "rb-in": "cashew nuts"
+      },
+      {
+        "rb-ia": "75 g ",
+        "rb-in": "tomatoes (sun-dried)"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "sesame oil"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Sauce"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "oregano"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "dill"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "rosemary"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "pepper"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "75 ml ",
+        "rb-in": "olive oil"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "lemon juice"
+      }
+    ],
+    "ins": [
+      {
+        "1": "Mix all ingredients together in a jar of sauce",
+        "2": "Cut broccoli into florets and sun dried tomatoes into quarters",
+        "3": "Fry cashew nuts in a frying pan and remove",
+        "4": "Heat sesame oil in a pan and add plenty of broccoli and sear by stirring for 3 minutes",
+        "5": "Mix in the sun dried tomatoes, cashew nuts and sauce and sauté all for 2 minutes while stirring well"
+      }
+    ]
+  }
+]
