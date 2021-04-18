@@ -60,12 +60,9 @@ async function parseData(){
     })
       
       values.ins = $ul;
-      //find(".zurreck-recipes-step").text();
-      //const instruction = $(li).find(".zurreck-recipes-instruction").text();
       newArr.push(values);
-      //newArr.push(obj)
 
-
+    //write to local storage
     await fs.promises.writeFile(
         'data.json',
         JSON.stringify(newArr, null, 2)
