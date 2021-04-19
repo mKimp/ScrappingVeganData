@@ -5,7 +5,7 @@ const rp = require('request-promise-native');
 
 async function downloadBoxScoreHtml() {
   // where to download the HTML from
-  const uri = "https://www.eat-vegan.rocks/en/fried-broccoli-with-sun-dried-tomatoes-and-cashew-nuts/";
+  const uri = "https://www.eat-vegan.rocks/en/grated-kohlrabi-salad-with-beetroot-carrot-cucumber-and-sprouts/";
    // the output filename
   const filename = 'friedbroccoli.html';
   // download the HTML from the web server
@@ -42,9 +42,9 @@ async function parseData(){
       id: $title,
     }
 
+    //insert into array of obj details about this recipie
     values.obj = value;
 
-    const newArr = []
     //grab the direction
     const $ul = $('.instructions').toArray().map(li => { 
       const $li = $(li).find("li").toArray();
@@ -58,15 +58,32 @@ async function parseData(){
       }
       return newObj;
     })
-      
-      values.ins = $ul;
-      newArr.push(values);
-
+    
+    //insert into the array of obj
+    values.ins = $ul;
+    
     //write to local storage
-    await fs.promises.writeFile(
-        'data.json',
-        JSON.stringify(newArr, null, 2)
-      );
+    try{
+      if(fs.existsSync('data.json')){
+        console.log("file exists")
+        const dataarray = JSON.parse(fs.readFileSync('data.json'));
+        dataarray.push(values);
+        await fs.promises.writeFile(
+          'data.json',
+          JSON.stringify(dataarray, null, 2)
+        )
+      }
+      else{
+        console.log("file not exitst")
+        await fs.promises.writeFile(
+          'data.json',
+          JSON.stringify([values], null, 2)
+        ).catch(err => console.log(err + " err in writing file"))
+      }
+    }catch (err){
+        console.log(err);
+    }
+
 }
 async function main() {
   console.log('Starting...');

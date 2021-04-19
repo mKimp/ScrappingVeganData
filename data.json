@@ -1,26 +1,111 @@
 [
   {
-    "id": "Fried Broccoli with Sun-Dried Tomatoes and Cashew Nuts",
+    "id": "Shiitake Soup with Parsley and Mixed Herbs",
     "obj": [
       {
-        "rb-ia": "500 g ",
-        "rb-in": "broccoli"
+        "rb-ia": "150 g ",
+        "rb-in": "shiitake mushrooms"
       },
       {
-        "rb-ia": "100 g ",
-        "rb-in": "cashew nuts"
+        "rb-ia": "½ bunch ",
+        "rb-in": "parsley"
       },
       {
-        "rb-ia": "75 g ",
-        "rb-in": "tomatoes (sun-dried)"
+        "rb-ia": "1 ",
+        "rb-in": "garlic clove"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "black peppercorns"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "salad herbs (dried)"
+      },
+      {
+        "rb-ia": "750 ml ",
+        "rb-in": "vegetable broth"
       },
       {
         "rb-ia": " ",
-        "rb-in": "sesame oil"
+        "rb-in": "coconut oil"
+      }
+    ],
+    "ins": [
+      {
+        "1": "Clean shiitake mushrooms and cut into strips, peel and chop garlic, chop parsley coarsely",
+        "2": "Heat a pot and melt the coconut oil. Sauté shiitake mushrooms and garlic briefly",
+        "3": "Vegetable broth, parsley, peppercorns and salad herbs add. Simmer for ~10 minutes"
+      }
+    ]
+  },
+  {
+    "id": "Tofu in Tomato-Coriander-Sauce",
+    "obj": [
+      {
+        "rb-ia": "500 g ",
+        "rb-in": "peeled tomatoes (canned)"
+      },
+      {
+        "rb-ia": "200 g ",
+        "rb-in": "tofu"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "onion"
+      },
+      {
+        "rb-ia": "2 ",
+        "rb-in": "garlic cloves"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "black peppercorns"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "salt"
+      },
+      {
+        "rb-ia": "½ tsp ",
+        "rb-in": "oregano"
+      },
+      {
+        "rb-ia": "1 bunch ",
+        "rb-in": "coriander"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "coconut oil"
       },
       {
         "rb-ia": "",
-        "rb-it": "Sauce"
+        "rb-it": "Side dish"
+      },
+      {
+        "rb-ia": " ",
+        "rb-in": "tortilla chips"
+      }
+    ],
+    "ins": [
+      {
+        "1": "Peel onion and garlic, chop both and sauté in a pan with coconut oil",
+        "2": "Cut tofu into stripes, remove the stalk of the canned tomatoes and cut into small pieces",
+        "3": "Put tomatoes together with the peppercorns, oregano and salt in the pan, simmer for 5 minutes, stir occasionally",
+        "4": "Coarsely chop coriander and add together with the tofu in the sauce, simmer for a further ~ 7 minutes, stir occasionally"
+      }
+    ]
+  },
+  {
+    "id": "Grated Kohlrabi Salad with Beetroot, Carrot, Cucumber and Sprouts",
+    "obj": [
+      {
+        "rb-ia": "",
+        "rb-it": "Dressing"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "soy yogurt (natural)"
       },
       {
         "rb-ia": "½ tsp ",
@@ -28,36 +113,67 @@
       },
       {
         "rb-ia": "½ tsp ",
-        "rb-in": "dill"
-      },
-      {
-        "rb-ia": "½ tsp ",
         "rb-in": "rosemary"
-      },
-      {
-        "rb-ia": "½ tsp ",
-        "rb-in": "pepper"
       },
       {
         "rb-ia": "½ tsp ",
         "rb-in": "salt"
       },
       {
-        "rb-ia": "75 ml ",
-        "rb-in": "olive oil"
+        "rb-ia": "1 tsp ",
+        "rb-in": "pepper"
+      },
+      {
+        "rb-ia": "1 tsp ",
+        "rb-in": "dill"
       },
       {
         "rb-ia": "1 Tbsp ",
-        "rb-in": "lemon juice"
+        "rb-in": "canola oil"
+      },
+      {
+        "rb-ia": "1 Tbsp ",
+        "rb-in": "agave syrup"
+      },
+      {
+        "rb-ia": "",
+        "rb-it": "Salad"
+      },
+      {
+        "rb-ia": "100 g ",
+        "rb-in": "kohlrabi"
+      },
+      {
+        "rb-ia": "100 g ",
+        "rb-in": "beetroots"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "carrots"
+      },
+      {
+        "rb-ia": "150 g ",
+        "rb-in": "cucumber"
+      },
+      {
+        "rb-ia": "1 ",
+        "rb-in": "shallot"
+      },
+      {
+        "rb-ia": "25 g ",
+        "rb-in": "red radish sprouts"
+      },
+      {
+        "rb-ia": "30 g ",
+        "rb-in": "alfalfa sprouts"
       }
     ],
     "ins": [
       {
-        "1": "Mix all ingredients together in a jar of sauce",
-        "2": "Cut broccoli into florets and sun dried tomatoes into quarters",
-        "3": "Fry cashew nuts in a frying pan and remove",
-        "4": "Heat sesame oil in a pan and add plenty of broccoli and sear by stirring for 3 minutes",
-        "5": "Mix in the sun dried tomatoes, cashew nuts and sauce and sauté all for 2 minutes while stirring well"
+        "1": "Mix well soy yogurt together with all the herbs, salt, rapeseed oil and agave syrup",
+        "2": "Peel and chop the shallot",
+        "3": "Peel kohlrabi, carrots and beetroot and grater coarsely all together with the cucumber (alternatively: chop coarsely and blend briefly)",
+        "4": "Mix everything well and serve with the sprouts"
       }
     ]
   }
